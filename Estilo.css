@@ -98,7 +98,6 @@ body{
     background-image: url(https://www.adictosaltrabajo.com/wp-content/uploads/2019/01/samuel-zeller-34751-unsplash.jpg);
     justify-content: flex-start;
     border-radius: 1px solid black;
-    
 }
 
 header{
@@ -167,7 +166,8 @@ header{
 
 body div{
     line-height: 1;
-    margin:30px;
+    margin: 10px;
+    right: 10px;
 }
 
 .logo{
@@ -234,3 +234,78 @@ header{
 .separacion{
     padding-top: 70px;
 }
+
+@media (min-width: 768px) {
+
+    header nav {
+    display: block;
+    }
+    
+    header img {
+        display: none;
+    }
+}
+
+h2{
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--arriba
+    );
+    font-weight: bold;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+form{
+    left: 10px;
+	width: auto;
+	padding: 20px;
+	border-radius:10px;
+	margin: 10px;
+	background-color: var(--arriba);
+}
+    form label{
+        width:72px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"]{
+        width:180px;
+        padding:3px 10px;
+        border:1px solid black;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+    form input[type="submit"]{
+        width:100%;
+        padding:8px 16px;
+        margin-top: 16px;
+        border-color: white;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color: var(--arriba);
+    } 
+    form input[type="submit"]:hover{
+        cursor: pointer;
+        transition: background .5s;
+        background-color: grey;
+    }
+    textarea{
+        width: 300px;
+        height:100px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:8px 0;
+        resize:none;
+	    display:block;
+        font-style: italic;
+    }
+    
