@@ -5,7 +5,6 @@ span,
 applet,
 object,
 iframe,
-h1,
 h2,
 h3,
 h4,
@@ -98,6 +97,7 @@ body{
     background-image: url(https://www.adictosaltrabajo.com/wp-content/uploads/2019/01/samuel-zeller-34751-unsplash.jpg);
     justify-content: flex-start;
     border-radius: 1px solid black;
+    
 }
 
 header{
@@ -232,7 +232,16 @@ header{
 }
 
 .separacion{
-    padding-top: 70px;
+    padding-top: 80px;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font:bold;
+    
 }
 
 @media (min-width: 768px) {
@@ -309,3 +318,31 @@ form{
         font-style: italic;
     }
     
+.feo{
+    background-color: white;
+    opacity: 40%;
+    
+}
+#feo{
+    background-color: white;
+    opacity: 40%;
+    
+}
+
+.contenedor{
+    height: 230px;
+    width: 100%;
+    overflow-x: scroll;
+    background-color: var(--arriba);
+    padding: 1%;
+    border-radius: 10px;
+    
+}
+.contenedor-imagen{
+    display: flex;
+    flex-direction: row;
+}
+.imge{
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px black;
+}
